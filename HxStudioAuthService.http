@@ -1,0 +1,6 @@
+@HxStudioAuthService_HostAddress = http://localhost:5166
+
+GET {{HxStudioAuthService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
