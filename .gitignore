@@ -1,1 +1,65 @@
+## Ignore Visual Studio temporary files, build results, and
+## Release and Debug folders.
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+*.log
+
+.bin/
+.obj/
+.logs/
+
+## User-specific files
+.vscode/
 .vs/
+.vscode/*
+
+## Auto-generated files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.ncrunchproject
+*.ncrunchsolution
+*.DotSettings.user
+*.dotsettings
+.idea/
+.idea/*
+
+## Mac system files
+.DS_Store
+
+## Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## Folder config file
+Desktop.ini
+## Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+## Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+## Ignore JetBrains Rider IDE files
+.idea/
+
+## Ignore node_modules and npm log files
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+## ASP.NET Scaffolding
+.scaffolding
+
+## Ignore publish output
+publish/
+
+# Linux files
+*~
