@@ -96,5 +96,27 @@ namespace HxStudioAuthService.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request");
             }
         }
+
+        /// <summary>
+        /// Changes the password for a user.
+        /// </summary>
+        [HttpPost("changePassword")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto model)
+        {
+            try
+            {
+                var errorMessage = await _authService.ChangePassword(model);
+                if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    return BadRequest(new ResponseDto { IsSuccess = false, Message = errorMessage });
+                }
+                return Ok(new ResponseDto { IsSuccess = true });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while processing change password request");
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request");
+            }
+        }
     }
 }

@@ -7,5 +7,7 @@ namespace HxStudioAuthService.IService
         Task<string> Register(RegistrationRequestDto registrationRequestDto);
         Task<LoginResponseDto> Login(LoginRequestDto loginRequestDto);
         Task<bool> AssignRole(string email, string roleName);
+        Task<string> ChangePassword(ChangePasswordDto changePasswordDto);
+
     }
 }

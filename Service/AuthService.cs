@@ -55,7 +55,7 @@ namespace HxStudioAuthService.Service
                         Email = userReturn.Email,
                         PhoneNumber = userReturn.PhoneNumber,
                         ID = userReturn.Id,
-                        Name = userReturn.Name
+                        Name = userReturn.Name                      
                     };
 
                     return "";
@@ -98,12 +98,17 @@ namespace HxStudioAuthService.Service
                 }
                 // Generate a token for the authenticated user.
                 var token = _jwtTokenGenerator.GenerateToken(userDetails);
+
+                var roles = await _userManager.GetRolesAsync(userDetails);
+                var role = roles.FirstOrDefault();
+
                 UserDto userDto = new UserDto()
                 {
                     ID = userDetails.Id,
                     Name = userDetails.Name,
                     Email = userDetails.Email,
-                    PhoneNumber = userDetails.PhoneNumber
+                    PhoneNumber = userDetails.PhoneNumber,
+                    Role = role
 
                 };
 
@@ -147,6 +152,31 @@ namespace HxStudioAuthService.Service
             }
             return false;
         }
+
+        public async Task<string> ChangePassword(ChangePasswordDto changePasswordDto)
+        {
+            try
+            {
+                var user = await _userManager.FindByEmailAsync(changePasswordDto.Email);
+                if (user == null)
+                {
+                    return "User not found";
+                }
+
+                var result = await _userManager.ChangePasswordAsync(user, changePasswordDto.CurrentPassword, changePasswordDto.NewPassword);
+                if (result.Succeeded)
+                {
+                    return "";
+                }
+                return string.Join(", ", result.Errors.Select(e => e.Description));
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex.Message);
+                return "Error occurred while changing the password";
+            }
+        }
+
 
     }
 }
