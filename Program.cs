@@ -3,9 +3,12 @@ using HxStudioAuthService.IService;
 using HxStudioAuthService.Models;
 using HxStudioAuthService.Service;
 using InboundOutboundEmail.Services.AuthAPI.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using System.Text;
 
 public class Program
 {
@@ -33,6 +36,30 @@ public class Program
             .AddDefaultTokenProviders();
         builder.Services.AddScoped<IAuthService, AuthService>();
         builder.Services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+
+        // Add JWT authentication
+        var jwtOptions = builder.Configuration.GetSection("APISetting:JwtOptions").Get<JwtOptions>();
+        var key = Encoding.ASCII.GetBytes(jwtOptions.Secret);
+
+        builder.Services.AddAuthentication(options =>
+        {
+            options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+        })
+        .AddJwtBearer(options =>
+        {
+            options.TokenValidationParameters = new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                ValidateIssuerSigningKey = true,
+                ValidIssuer = jwtOptions.Issuer,
+                ValidAudience = jwtOptions.Audience,
+                IssuerSigningKey = new SymmetricSecurityKey(key)
+            };
+        });
+
         builder.Services.AddControllers();
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

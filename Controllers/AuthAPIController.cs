@@ -1,6 +1,7 @@
 ﻿using HxStudioAuthService.IService;
 using HxStudioAuthService.Models.Dto;
 using HxStudioAuthService.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection.Metadata.Ecma335;
@@ -100,6 +101,7 @@ namespace HxStudioAuthService.Controllers
         /// <summary>
         /// Changes the password for a user.
         /// </summary>
+        [Authorize]
         [HttpPost("changePassword")]
         public async Task<IActionResult> ChangePassword([FromBody] ChangePasswordDto model)
         {
