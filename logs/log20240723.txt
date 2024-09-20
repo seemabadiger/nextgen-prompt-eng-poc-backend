@@ -1,0 +1,66 @@
+2024-07-23 15:41:08.749 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-23 15:41:08.930 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-23 15:41:08.975 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-23 15:41:09.056 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-23 15:41:09.529 +05:30 [INF] Now listening on: https://localhost:7281
+2024-07-23 15:41:09.532 +05:30 [INF] Now listening on: http://localhost:5166
+2024-07-23 15:41:09.535 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-23 15:41:09.537 +05:30 [INF] Hosting environment: Development
+2024-07-23 15:41:09.539 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-07-23 15:41:10.555 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-07-23 15:41:10.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-07-23 15:41:10.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-23 15:41:10.997 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 449.627ms
+2024-07-23 15:41:11.038 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 40.6952ms
+2024-07-23 15:41:11.259 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 262.0399ms
+2024-07-23 15:41:11.471 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-07-23 15:41:11.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 225.3211ms
+2024-07-23 15:47:51.349 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-23 15:47:51.429 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-23 15:47:51.448 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-23 15:47:51.495 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-23 15:47:51.780 +05:30 [INF] Now listening on: https://localhost:7281
+2024-07-23 15:47:51.782 +05:30 [INF] Now listening on: http://localhost:5166
+2024-07-23 15:47:51.785 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-23 15:47:51.786 +05:30 [INF] Hosting environment: Development
+2024-07-23 15:47:51.787 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-07-23 15:47:52.282 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-07-23 15:47:52.647 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 367.8233ms
+2024-07-23 15:47:52.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-23 15:47:52.655 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-07-23 15:47:52.714 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 66.4336ms
+2024-07-23 15:47:52.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.7906ms
+2024-07-23 15:47:52.824 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-07-23 15:47:52.964 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.1437ms
+2024-07-23 16:07:44.270 +05:30 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-07-23 16:07:44.442 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-07-23 16:07:44.470 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-07-23 16:07:44.529 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-23 16:07:44.941 +05:30 [INF] Now listening on: https://localhost:7281
+2024-07-23 16:07:44.943 +05:30 [INF] Now listening on: http://localhost:5166
+2024-07-23 16:07:44.947 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-23 16:07:44.948 +05:30 [INF] Hosting environment: Development
+2024-07-23 16:07:44.950 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-07-23 16:07:45.819 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-07-23 16:07:46.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-07-23 16:07:46.504 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-23 16:07:46.505 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 681.1857ms
+2024-07-23 16:07:46.560 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 58.9563ms
+2024-07-23 16:07:46.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.4023ms
+2024-07-23 16:07:46.719 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-07-23 16:07:46.939 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.1607ms

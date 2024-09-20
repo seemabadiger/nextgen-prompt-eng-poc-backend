@@ -1,0 +1,42 @@
+2024-08-12 11:29:51.322 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-12 11:29:51.632 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-12 11:29:51.671 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-12 11:29:51.823 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-12 11:29:52.338 +05:30 [INF] Now listening on: https://localhost:7281
+2024-08-12 11:29:52.340 +05:30 [INF] Now listening on: http://localhost:5166
+2024-08-12 11:29:52.343 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-12 11:29:52.344 +05:30 [INF] Hosting environment: Development
+2024-08-12 11:29:52.345 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-08-12 11:29:56.152 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-08-12 11:29:56.622 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 479.5987ms
+2024-08-12 11:29:56.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-08-12 11:29:56.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-12 11:29:56.720 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 54.8141ms
+2024-08-12 11:29:56.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 126.5118ms
+2024-08-12 11:29:56.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-08-12 11:29:57.014 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 129.6957ms
+2024-08-12 11:54:34.357 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-12 11:54:34.372 +05:30 [INF] CORS policy execution successful.
+2024-08-12 11:54:34.374 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 18.7201ms
+2024-08-12 11:54:34.378 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-12 11:54:34.383 +05:30 [INF] CORS policy execution successful.
+2024-08-12 11:54:34.445 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-12 11:54:34.478 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-12 11:54:34.851 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-12 11:54:35.093 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-12 11:54:35.122 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-12 11:54:35.139 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 653.9191ms
+2024-08-12 11:54:35.141 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-12 11:54:35.149 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 771.4585ms

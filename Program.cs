@@ -59,7 +59,16 @@ public class Program
                 IssuerSigningKey = new SymmetricSecurityKey(key)
             };
         });
-
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowLocalhost",
+            builder =>
+            {
+                builder.WithOrigins("http://localhost:5173")
+                       .AllowAnyHeader()
+                       .AllowAnyMethod();
+            });
+        });
         builder.Services.AddControllers();
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -69,6 +78,7 @@ public class Program
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
+        app.UseCors("AllowLocalhost");
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();
@@ -81,7 +91,7 @@ public class Program
 
         // Configure localization to use invariant culture
         app.MapControllers();
-
+       
         ApplyMigration(app);
         app.Run();
     }
@@ -91,6 +101,7 @@ public class Program
         using (var scope = app.Services.CreateScope())
         {
             var _db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+            
 
             if (_db.Database.GetPendingMigrations().Count() > 0)
             {

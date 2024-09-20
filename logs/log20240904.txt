@@ -1,0 +1,445 @@
+2024-09-04 13:12:40.813 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:12:40.872 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:12:40.889 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:12:40.894 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:12:40.896 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:12:40.897 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:12:40.898 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:12:40.903 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:12:40.912 +05:30 [INF] Applying migration '20240904062339_IdentityTables'.
+2024-09-04 13:12:40.973 +05:30 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-04 13:16:46.314 +05:30 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:16:46.366 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:16:46.383 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:16:46.390 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:16:46.393 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:16:46.395 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:16:46.397 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:16:46.398 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:16:46.405 +05:30 [INF] Applying migration '20240904062339_IdentityTables'.
+2024-09-04 13:16:46.448 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-04 13:20:43.157 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:20:43.206 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:20:43.219 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:20:43.224 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:20:43.227 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:20:43.229 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 13:20:43.230 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 13:20:43.231 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 13:20:43.237 +05:30 [INF] Applying migration '20240904062339_IdentityTables'.
+2024-09-04 13:20:43.279 +05:30 [ERR] Failed executing DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-04 17:13:14.648 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:13:14.739 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:13:14.744 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:13:14.745 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:13:14.770 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:13:14.785 +05:30 [INF] Applying migration '20240904062339_IdentityTables'.
+2024-09-04 17:13:14.887 +05:30 [ERR] Failed executing DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-04 17:20:26.021 +05:30 [INF] Executed DbCommand (427ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [HXStudioAuth_db];
+2024-09-04 17:20:26.305 +05:30 [INF] Executed DbCommand (133ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HXStudioAuth_db] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-09-04 17:20:26.372 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:20:26.497 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-09-04 17:20:26.517 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:20:26.565 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:20:26.601 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:20:26.634 +05:30 [INF] Applying migration '20240904062339_IdentityTables'.
+2024-09-04 17:20:26.741 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-09-04 17:20:26.784 +05:30 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2024-09-04 17:20:26.807 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2024-09-04 17:20:26.815 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-04 17:20:26.824 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-04 17:20:26.844 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-04 17:20:26.860 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-09-04 17:20:26.886 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2024-09-04 17:20:26.903 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2024-09-04 17:20:26.925 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2024-09-04 17:20:26.941 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2024-09-04 17:20:26.959 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2024-09-04 17:20:26.981 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2024-09-04 17:20:26.995 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2024-09-04 17:20:27.003 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240904062339_IdentityTables', N'8.0.8');
+2024-09-04 17:20:27.087 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:20:27.117 +05:30 [INF] Creating key {e6ccf24b-a476-4bed-aaba-94674fe85dd9} with creation date 2024-09-04 11:50:27Z, activation date 2024-09-04 11:50:27Z, and expiration date 2024-12-03 11:50:27Z.
+2024-09-04 17:20:27.161 +05:30 [INF] Writing data to file 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys\key-e6ccf24b-a476-4bed-aaba-94674fe85dd9.xml'.
+2024-09-04 17:20:27.506 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:20:27.515 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:20:27.521 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:20:27.529 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:20:31.577 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger - null null
+2024-09-04 17:20:31.935 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger - 301 0 null 370.2882ms
+2024-09-04 17:20:31.944 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2024-09-04 17:20:32.034 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 89.7538ms
+2024-09-04 17:20:32.051 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui-bundle.js - null null
+2024-09-04 17:20:32.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:20:32.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_vs/browserLink - null null
+2024-09-04 17:20:32.082 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui.css - null null
+2024-09-04 17:20:32.124 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 41.1954ms
+2024-09-04 17:20:32.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-04 17:20:32.222 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-04 17:20:32.227 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-04 17:20:32.246 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui.css - 200 143943 text/css 163.5164ms
+2024-09-04 17:20:32.246 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 194.7363ms
+2024-09-04 17:20:32.253 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-04 17:20:32.278 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 186.4788ms
+2024-09-04 17:20:32.318 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_vs/browserLink - 200 null text/javascript; charset=UTF-8 235.3574ms
+2024-09-04 17:20:32.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2024-09-04 17:20:32.569 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/favicon-32x32.png - null null
+2024-09-04 17:20:32.579 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-04 17:20:32.589 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/favicon-32x32.png - 200 628 image/png 20.7775ms
+2024-09-04 17:20:32.770 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 235.6077ms
+2024-09-04 17:25:05.390 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:25:05.508 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:25:05.529 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:25:05.581 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:25:05.823 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:25:05.834 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:25:05.837 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:25:05.844 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:25:08.387 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2024-09-04 17:25:08.802 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 421.6357ms
+2024-09-04 17:25:08.814 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_vs/browserLink - null null
+2024-09-04 17:25:08.828 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:25:08.854 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 25.9929ms
+2024-09-04 17:25:08.950 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_vs/browserLink - 200 null text/javascript; charset=UTF-8 136.4158ms
+2024-09-04 17:25:09.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2024-09-04 17:25:09.267 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.5555ms
+2024-09-04 17:26:05.812 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/auth/register - application/json 130
+2024-09-04 17:26:05.843 +05:30 [INF] CORS policy execution failed.
+2024-09-04 17:26:05.846 +05:30 [INF] Request origin http://localhost:5166 does not have permission to access the resource.
+2024-09-04 17:26:05.854 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-09-04 17:26:06.004 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-09-04 17:26:06.049 +05:30 [INF] Route matched with {action = "Register", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HxStudioAuthService.Models.Dto.RegistrationRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-09-04 17:26:06.301 +05:30 [INF] Register user details{"Email":"admin@example.com","Name":"admin","PhoneNumber":"9988776655","Password":"admin@123","Role":"admin"}
+2024-09-04 17:26:06.349 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-09-04 17:26:06.380 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService) in 312.6327ms
+2024-09-04 17:26:06.391 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-09-04 17:26:06.397 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/auth/register - 400 null application/json; charset=utf-8 585.8667ms
+2024-09-04 17:26:28.857 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5166/api/auth/register - application/json 130
+2024-09-04 17:26:28.880 +05:30 [INF] CORS policy execution failed.
+2024-09-04 17:26:28.889 +05:30 [INF] Request origin http://localhost:5166 does not have permission to access the resource.
+2024-09-04 17:26:28.900 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-09-04 17:26:28.904 +05:30 [INF] Route matched with {action = "Register", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HxStudioAuthService.Models.Dto.RegistrationRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-09-04 17:26:28.938 +05:30 [INF] Register user details{"Email":"admin@example.com","Name":"admin","PhoneNumber":"9988776655","Password":"Admin@123","Role":"admin"}
+2024-09-04 17:26:29.718 +05:30 [INF] Executed DbCommand (62ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-09-04 17:26:29.991 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2024-09-04 17:26:30.043 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__registrationRequestDto_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__registrationRequestDto_Email_0
+2024-09-04 17:26:30.060 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-09-04 17:26:30.065 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService) in 1150.4198ms
+2024-09-04 17:26:30.068 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-09-04 17:26:30.074 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5166/api/auth/register - 200 null application/json; charset=utf-8 1216.4382ms
+2024-09-04 17:53:46.984 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:53:47.129 +05:30 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:53:47.172 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:53:47.262 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:53:47.498 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:53:47.506 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:53:47.512 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:53:47.517 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:53:50.654 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2024-09-04 17:53:51.157 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 512.0992ms
+2024-09-04 17:53:51.167 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_vs/browserLink - null null
+2024-09-04 17:53:51.181 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:53:51.218 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 36.411ms
+2024-09-04 17:53:51.305 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_vs/browserLink - 200 null text/javascript; charset=UTF-8 138.759ms
+2024-09-04 17:53:51.372 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2024-09-04 17:53:51.591 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.5394ms
+2024-09-04 17:54:11.549 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:54:11.684 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:54:11.704 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:54:11.769 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:54:12.022 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:54:12.033 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:54:12.039 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:54:12.043 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:54:26.802 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:54:26.935 +05:30 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:54:26.971 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:54:27.054 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:54:27.559 +05:30 [INF] Now listening on: https://localhost:7281
+2024-09-04 17:54:27.568 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:54:27.584 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:54:27.596 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:54:27.603 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:54:27.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/index.html - null null
+2024-09-04 17:54:28.482 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/index.html - 200 null text/html;charset=utf-8 841.1575ms
+2024-09-04 17:54:28.544 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:54:28.546 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/_vs/browserLink - null null
+2024-09-04 17:54:28.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 24.1924ms
+2024-09-04 17:54:28.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/_vs/browserLink - 200 null text/javascript; charset=UTF-8 141.2026ms
+2024-09-04 17:54:29.022 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger - null null
+2024-09-04 17:54:29.053 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger - 301 0 null 31.5322ms
+2024-09-04 17:54:29.070 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-04 17:54:29.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - null null
+2024-09-04 17:54:29.145 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 74.7399ms
+2024-09-04 17:54:29.143 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:54:29.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - null null
+2024-09-04 17:54:29.223 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 82.0276ms
+2024-09-04 17:54:29.143 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-04 17:54:29.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - null null
+2024-09-04 17:54:29.305 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-09-04 17:54:29.305 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-09-04 17:54:29.538 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - 200 143943 text/css 404.3176ms
+2024-09-04 17:54:29.556 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 421.6332ms
+2024-09-04 17:54:29.411 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - null null
+2024-09-04 17:54:29.560 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-09-04 17:54:29.769 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 634.2756ms
+2024-09-04 17:54:29.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 547.2209ms
+2024-09-04 17:54:30.069 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5166/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 658.7724ms
+2024-09-04 17:54:30.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-04 17:54:30.237 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.2592ms
+2024-09-04 17:54:30.262 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/favicon-32x32.png - null null
+2024-09-04 17:54:30.285 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-09-04 17:54:30.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/favicon-32x32.png - 200 628 image/png 39.7171ms
+2024-09-04 17:55:35.067 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-04 17:55:35.185 +05:30 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-04 17:55:35.226 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-04 17:55:35.281 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-04 17:55:35.624 +05:30 [INF] Now listening on: https://localhost:7281
+2024-09-04 17:55:35.631 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-04 17:55:35.641 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-04 17:55:35.655 +05:30 [INF] Hosting environment: Development
+2024-09-04 17:55:35.663 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-04 17:55:38.171 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-04 17:55:38.590 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 426.2845ms
+2024-09-04 17:55:38.594 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-04 17:55:38.594 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-04 17:55:38.656 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 62.4912ms
+2024-09-04 17:55:38.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.436ms
+2024-09-04 17:55:38.889 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-04 17:55:39.058 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.6792ms
+2024-09-04 17:56:50.198 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-09-04 17:56:50.223 +05:30 [INF] CORS policy execution successful.
+2024-09-04 17:56:50.232 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 33.9676ms
+2024-09-04 17:56:50.270 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 55
+2024-09-04 17:56:50.293 +05:30 [INF] CORS policy execution successful.
+2024-09-04 17:56:50.438 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-04 17:56:50.475 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-09-04 17:56:51.034 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-09-04 17:56:51.441 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-04 17:56:51.488 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-09-04 17:56:51.510 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 1014.4386ms
+2024-09-04 17:56:51.522 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-04 17:56:51.548 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 1305.5545ms
+2024-09-04 17:59:13.746 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-09-04 17:59:13.788 +05:30 [INF] CORS policy execution successful.
+2024-09-04 17:59:13.791 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 45.6947ms
+2024-09-04 17:59:13.799 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 55
+2024-09-04 17:59:13.821 +05:30 [INF] CORS policy execution successful.
+2024-09-04 17:59:13.832 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-04 17:59:13.840 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-09-04 17:59:14.017 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-09-04 17:59:14.211 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-04 17:59:14.223 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-09-04 17:59:14.231 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 354.3241ms
+2024-09-04 17:59:14.238 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-04 17:59:14.251 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 453.4421ms

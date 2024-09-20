@@ -1,0 +1,449 @@
+2024-08-01 14:34:44.615 +05:30 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-01 14:34:44.706 +05:30 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-01 14:34:44.840 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-01 14:34:44.901 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-01 14:34:45.265 +05:30 [INF] Now listening on: https://localhost:7281
+2024-08-01 14:34:45.267 +05:30 [INF] Now listening on: http://localhost:5166
+2024-08-01 14:34:45.269 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-01 14:34:45.271 +05:30 [INF] Hosting environment: Development
+2024-08-01 14:34:45.272 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-08-01 14:34:48.348 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-08-01 14:34:48.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 331.6089ms
+2024-08-01 14:34:48.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-01 14:34:48.678 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-08-01 14:34:48.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 24.2199ms
+2024-08-01 14:34:48.816 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 138.6197ms
+2024-08-01 14:34:48.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-08-01 14:34:48.969 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 113.2387ms
+2024-08-01 14:36:08.213 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:36:08.306 +05:30 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2024-08-01 14:36:08.308 +05:30 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2024-08-01 14:36:08.309 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 405 0 null 96.0951ms
+2024-08-01 14:38:57.682 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-01 14:38:57.757 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-01 14:38:57.772 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-01 14:38:57.815 +05:30 [INF] User profile is available. Using 'C:\Users\Pallavi.Dhake\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-01 14:38:58.023 +05:30 [INF] Now listening on: https://localhost:7281
+2024-08-01 14:38:58.026 +05:30 [INF] Now listening on: http://localhost:5166
+2024-08-01 14:38:58.028 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-01 14:38:58.029 +05:30 [INF] Hosting environment: Development
+2024-08-01 14:38:58.030 +05:30 [INF] Content root path: C:\Users\Pallavi.Dhake\source\repos\sayaligaikwad29\nextgen-prompt-eng-poc-backend
+2024-08-01 14:38:58.583 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-08-01 14:38:58.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 416.8324ms
+2024-08-01 14:38:58.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-01 14:38:58.997 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-08-01 14:38:59.021 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 25.634ms
+2024-08-01 14:38:59.073 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.8512ms
+2024-08-01 14:38:59.118 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-08-01 14:38:59.243 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.0709ms
+2024-08-01 14:39:22.083 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:39:22.098 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:39:22.102 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 19.4579ms
+2024-08-01 14:39:22.106 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:39:22.112 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:39:22.173 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:39:22.200 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:39:22.595 +05:30 [INF] Executed DbCommand (24ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:39:22.858 +05:30 [INF] Executed DbCommand (23ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:39:22.883 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:39:22.897 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 690.0731ms
+2024-08-01 14:39:22.900 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:39:22.908 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 802.2948ms
+2024-08-01 14:39:37.136 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:39:37.143 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:39:37.144 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 8.7381ms
+2024-08-01 14:39:37.148 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:39:37.152 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:39:37.154 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:39:37.155 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:39:37.221 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:39:37.305 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:39:37.311 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:39:37.313 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 156.3954ms
+2024-08-01 14:39:37.315 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:39:37.316 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 168.4401ms
+2024-08-01 14:41:20.173 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:41:20.183 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:41:20.184 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 11.3092ms
+2024-08-01 14:41:20.185 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:41:20.189 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:41:20.192 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:41:20.193 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:41:20.229 +05:30 [INF] Executed DbCommand (11ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:41:20.322 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:41:20.328 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:41:20.329 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 132.1817ms
+2024-08-01 14:41:20.331 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:41:20.332 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 146.5584ms
+2024-08-01 14:46:51.273 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:46:51.285 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:46:51.286 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 13.4496ms
+2024-08-01 14:46:51.288 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:46:51.293 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:46:51.293 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:46:51.294 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:46:51.310 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:46:51.416 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:46:51.420 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:46:51.421 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 126.2285ms
+2024-08-01 14:46:51.423 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:46:51.424 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 136.2346ms
+2024-08-01 14:49:54.541 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:49:54.548 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:49:54.549 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 7.994ms
+2024-08-01 14:49:54.551 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:49:54.555 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:49:54.557 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:49:54.558 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:49:54.569 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:49:54.693 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:49:54.697 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:49:54.699 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 139.4321ms
+2024-08-01 14:49:54.700 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:49:54.702 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 151.2277ms
+2024-08-01 14:57:10.510 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 14:57:10.519 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:57:10.520 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 9.9093ms
+2024-08-01 14:57:10.522 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 14:57:10.525 +05:30 [INF] CORS policy execution successful.
+2024-08-01 14:57:10.527 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:57:10.528 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 14:57:10.550 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 14:57:10.634 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 14:57:10.637 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 14:57:10.638 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 107.4592ms
+2024-08-01 14:57:10.640 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 14:57:10.642 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 119.8042ms
+2024-08-01 15:00:38.765 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:00:38.771 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:00:38.772 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 7.635ms
+2024-08-01 15:00:38.774 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 54
+2024-08-01 15:00:38.778 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:00:38.779 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:00:38.780 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:00:38.791 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:00:38.865 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:00:38.869 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:00:38.870 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 87.5705ms
+2024-08-01 15:00:38.872 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:00:38.873 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 98.9948ms
+2024-08-01 15:08:36.480 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/register - application/json 132
+2024-08-01 15:08:36.489 +05:30 [INF] CORS policy execution failed.
+2024-08-01 15:08:36.490 +05:30 [INF] Request origin https://localhost:7281 does not have permission to access the resource.
+2024-08-01 15:08:36.497 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-08-01 15:08:36.503 +05:30 [INF] Route matched with {action = "Register", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HxStudioAuthService.Models.Dto.RegistrationRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:08:36.629 +05:30 [INF] Register user details{"Email":"admin123@gmail.com","Name":"admin","PhoneNumber":"8765765465","Password":"Admin@1234","Role":"ADMIN"}
+2024-08-01 15:08:36.775 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-01 15:08:36.894 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 256), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = DateTimeOffset), @p7='?' (Size = 4000), @p8='?' (Size = 256), @p9='?' (Size = 256), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Boolean), @p13='?' (Size = 4000), @p14='?' (DbType = Boolean), @p15='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [ConcurrencyStamp], [Email], [EmailConfirmed], [LockoutEnabled], [LockoutEnd], [Name], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+2024-08-01 15:08:36.914 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__registrationRequestDto_Email_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[UserName] = @__registrationRequestDto_Email_0
+2024-08-01 15:08:36.918 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:08:36.919 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService) in 407.2488ms
+2024-08-01 15:08:36.923 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Register (HxStudioAuthService)'
+2024-08-01 15:08:36.925 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/register - 200 null application/json; charset=utf-8 445.7699ms
+2024-08-01 15:09:08.862 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/AssignRole - application/json 132
+2024-08-01 15:09:08.868 +05:30 [INF] CORS policy execution failed.
+2024-08-01 15:09:08.870 +05:30 [INF] Request origin https://localhost:7281 does not have permission to access the resource.
+2024-08-01 15:09:08.876 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.AssignRole (HxStudioAuthService)'
+2024-08-01 15:09:08.880 +05:30 [INF] Route matched with {action = "AssignRole", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AssignRole(HxStudioAuthService.Models.Dto.RegistrationRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:09:08.892 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[Email]) = @__ToLower_0
+2024-08-01 15:09:08.914 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2024-08-01 15:09:08.936 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-08-01 15:09:08.967 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2024-08-01 15:09:08.973 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2024-08-01 15:09:08.986 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2024-08-01 15:09:09.032 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 450), @p17='?' (Size = 450), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p18='?' (Size = 4000), @p4='?' (Size = 256), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 4000), @p9='?' (Size = 256), @p10='?' (Size = 256), @p11='?' (Size = 4000), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (Size = 4000), @p15='?' (DbType = Boolean), @p16='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AspNetUserRoles] ([RoleId], [UserId])
+VALUES (@p0, @p1);
+UPDATE [AspNetUsers] SET [AccessFailedCount] = @p2, [ConcurrencyStamp] = @p3, [Email] = @p4, [EmailConfirmed] = @p5, [LockoutEnabled] = @p6, [LockoutEnd] = @p7, [Name] = @p8, [NormalizedEmail] = @p9, [NormalizedUserName] = @p10, [PasswordHash] = @p11, [PhoneNumber] = @p12, [PhoneNumberConfirmed] = @p13, [SecurityStamp] = @p14, [TwoFactorEnabled] = @p15, [UserName] = @p16
+OUTPUT 1
+WHERE [Id] = @p17 AND [ConcurrencyStamp] = @p18;
+2024-08-01 15:09:09.047 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:09:09.048 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.AssignRole (HxStudioAuthService) in 165.716ms
+2024-08-01 15:09:09.050 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.AssignRole (HxStudioAuthService)'
+2024-08-01 15:09:09.051 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/AssignRole - 200 null application/json; charset=utf-8 189.1553ms
+2024-08-01 15:09:38.249 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 66
+2024-08-01 15:09:38.260 +05:30 [INF] CORS policy execution failed.
+2024-08-01 15:09:38.261 +05:30 [INF] Request origin https://localhost:7281 does not have permission to access the resource.
+2024-08-01 15:09:38.263 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:09:38.266 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:09:38.275 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:09:38.354 +05:30 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:09:38.363 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:09:38.364 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 96.5878ms
+2024-08-01 15:09:38.366 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:09:38.367 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 117.4949ms
+2024-08-01 15:10:25.267 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:10:25.277 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:10:25.279 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 12.5969ms
+2024-08-01 15:10:25.282 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:10:25.295 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:10:25.297 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:10:25.299 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:10:25.307 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:10:25.382 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:10:25.385 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:10:25.386 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 83.1842ms
+2024-08-01 15:10:25.388 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:10:25.389 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 106.5257ms
+2024-08-01 15:12:51.212 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:12:51.247 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:12:51.248 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 35.9895ms
+2024-08-01 15:12:51.251 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:12:51.258 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:12:51.260 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:12:51.264 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:12:51.281 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:12:51.357 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:12:51.361 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:12:51.362 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 88.93ms
+2024-08-01 15:12:51.363 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:12:51.364 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 113.5867ms
+2024-08-01 15:21:56.191 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:21:56.197 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:21:56.198 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 7.4639ms
+2024-08-01 15:21:56.201 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:21:56.203 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:21:56.204 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:21:56.206 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:21:56.216 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:21:56.290 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:21:56.294 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:21:56.295 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 86.6322ms
+2024-08-01 15:21:56.296 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:21:56.297 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 97.288ms
+2024-08-01 15:23:09.300 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:23:09.308 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:23:09.308 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 8.975ms
+2024-08-01 15:23:09.310 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:23:09.313 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:23:09.314 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:23:09.315 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:23:09.322 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:23:09.396 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:23:09.401 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:23:09.402 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 85.3339ms
+2024-08-01 15:23:09.404 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:23:09.405 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 95.1376ms
+2024-08-01 15:31:11.623 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:31:11.630 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:31:11.631 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 8.771ms
+2024-08-01 15:31:11.634 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:31:11.638 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:31:11.639 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:31:11.640 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:31:11.651 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:31:11.726 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:31:11.730 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:31:11.731 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 88.8232ms
+2024-08-01 15:31:11.732 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:31:11.733 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 99.2154ms
+2024-08-01 15:36:07.559 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:36:07.570 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:36:07.571 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 11.6476ms
+2024-08-01 15:36:07.573 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:36:07.576 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:36:07.577 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:36:07.578 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:36:07.593 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:36:07.679 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:36:07.681 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:36:07.682 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 98.1668ms
+2024-08-01 15:36:07.684 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:36:07.685 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 112.2684ms
+2024-08-01 15:40:58.288 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:40:58.297 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:40:58.298 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 10.9859ms
+2024-08-01 15:40:58.301 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:40:58.306 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:40:58.307 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:40:58.308 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:40:58.313 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:40:58.385 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:40:58.389 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:40:58.390 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 80.7126ms
+2024-08-01 15:40:58.391 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:40:58.393 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 92.3478ms
+2024-08-01 15:49:01.747 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:49:01.755 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:49:01.756 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 8.9535ms
+2024-08-01 15:49:01.757 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:49:01.762 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:49:01.763 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:49:01.763 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:49:01.773 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:49:01.846 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:49:01.850 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:49:01.851 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 86.3213ms
+2024-08-01 15:49:01.852 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:49:01.853 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 96.4304ms
+2024-08-01 15:52:35.133 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-08-01 15:52:35.141 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:52:35.142 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 9.0845ms
+2024-08-01 15:52:35.143 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 57
+2024-08-01 15:52:35.151 +05:30 [INF] CORS policy execution successful.
+2024-08-01 15:52:35.152 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:52:35.153 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-08-01 15:52:35.159 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-08-01 15:52:35.237 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-08-01 15:52:35.241 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-08-01 15:52:35.242 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 87.353ms
+2024-08-01 15:52:35.243 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-08-01 15:52:35.244 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 100.8545ms

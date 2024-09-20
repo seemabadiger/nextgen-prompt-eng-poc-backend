@@ -1,0 +1,94 @@
+2024-09-18 10:45:06.823 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-18 10:45:07.049 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-18 10:45:07.103 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-18 10:45:07.223 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:45:08.107 +05:30 [INF] Now listening on: https://localhost:7281
+2024-09-18 10:45:08.112 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-18 10:45:08.120 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:45:08.134 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:45:08.140 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-18 10:45:14.362 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-18 10:45:15.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 954.6708ms
+2024-09-18 10:45:15.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-18 10:45:15.314 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 10:45:15.364 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 51.1268ms
+2024-09-18 10:45:15.545 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.0839ms
+2024-09-18 10:45:15.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-18 10:45:16.004 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 355.9432ms
+2024-09-18 10:46:02.216 +05:30 [INF] Executed DbCommand (66ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-18 10:46:02.423 +05:30 [INF] Executed DbCommand (58ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-18 10:46:02.466 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-18 10:46:02.576 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:46:03.170 +05:30 [INF] Now listening on: https://localhost:7281
+2024-09-18 10:46:03.173 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-18 10:46:03.180 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:46:03.185 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:46:03.187 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-18 10:46:04.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-18 10:46:04.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 517.5896ms
+2024-09-18 10:46:04.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 10:46:04.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-18 10:46:04.967 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 46.9728ms
+2024-09-18 10:46:05.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.8217ms
+2024-09-18 10:46:05.159 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-18 10:46:05.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.8037ms
+2024-09-18 10:46:16.372 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-18 10:46:16.432 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 62.4436ms
+2024-09-18 10:46:16.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 10:46:16.511 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-18 10:46:16.535 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 28.2117ms
+2024-09-18 10:46:16.596 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.5337ms
+2024-09-18 10:46:16.725 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-18 10:46:16.747 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.5788ms
+2024-09-18 10:47:34.265 +05:30 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-09-18 10:47:34.509 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-09-18 10:47:34.561 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-09-18 10:47:34.685 +05:30 [INF] User profile is available. Using 'C:\Users\seema.badiger\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-09-18 10:47:35.175 +05:30 [INF] Now listening on: https://localhost:7281
+2024-09-18 10:47:35.181 +05:30 [INF] Now listening on: http://localhost:5166
+2024-09-18 10:47:35.188 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-18 10:47:35.194 +05:30 [INF] Hosting environment: Development
+2024-09-18 10:47:35.202 +05:30 [INF] Content root path: C:\Users\seema.badiger\HXSTUDIO\nextgen-prompt-eng-poc-backend\nextgen-prompt-eng-poc-backend
+2024-09-18 10:47:36.253 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - null null
+2024-09-18 10:47:36.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - 200 null text/html;charset=utf-8 626.849ms
+2024-09-18 10:47:36.898 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-18 10:47:36.909 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2024-09-18 10:47:36.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 13774 application/javascript; charset=utf-8 26.6634ms
+2024-09-18 10:47:37.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 122.6599ms
+2024-09-18 10:47:37.236 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - null null
+2024-09-18 10:47:37.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 208.1608ms
+2024-09-18 10:47:52.700 +05:30 [INF] Request starting HTTP/2 OPTIONS https://localhost:7281/api/auth/login - null null
+2024-09-18 10:47:52.733 +05:30 [INF] CORS policy execution successful.
+2024-09-18 10:47:52.740 +05:30 [INF] Request finished HTTP/2 OPTIONS https://localhost:7281/api/auth/login - 204 null null 41.2304ms
+2024-09-18 10:47:52.747 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7281/api/auth/login - application/json 55
+2024-09-18 10:47:52.782 +05:30 [INF] CORS policy execution successful.
+2024-09-18 10:47:52.961 +05:30 [INF] Executing endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-18 10:47:53.023 +05:30 [INF] Route matched with {action = "Login", controller = "AuthAPI"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HxStudioAuthService.Models.Dto.LoginRequestDto) on controller HxStudioAuthService.Controllers.AuthAPIController (HxStudioAuthService).
+2024-09-18 10:47:53.761 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__ToLower_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[Name], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE LOWER([a].[UserName]) = @__ToLower_0
+2024-09-18 10:47:54.295 +05:30 [INF] Executed DbCommand (52ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2024-09-18 10:47:54.354 +05:30 [INF] Executing OkObjectResult, writing value of type 'HxStudioAuthService.Models.Dto.ResponseDto'.
+2024-09-18 10:47:54.380 +05:30 [INF] Executed action HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService) in 1339.2071ms
+2024-09-18 10:47:54.391 +05:30 [INF] Executed endpoint 'HxStudioAuthService.Controllers.AuthAPIController.Login (HxStudioAuthService)'
+2024-09-18 10:47:54.464 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7281/api/auth/login - 200 null application/json; charset=utf-8 1717.7239ms
