@@ -4,8 +4,10 @@ using HxStudioAuthService.Models;
 using HxStudioAuthService.Service;
 using InboundOutboundEmail.Services.AuthAPI.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Serilog;
 using System.Text;
@@ -76,7 +78,6 @@ public class Program
         builder.Services.AddSwaggerGen();
 
         var app = builder.Build();
-
         // Configure the HTTP request pipeline.
         app.UseCors("AllowLocalhost");
         if (app.Environment.IsDevelopment())
@@ -93,6 +94,7 @@ public class Program
         app.MapControllers();
        
         ApplyMigration(app);
+        SeedRoles(app);
         app.Run();
     }
 
@@ -103,10 +105,40 @@ public class Program
             var _db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
             
 
-            if (_db.Database.GetPendingMigrations().Count() > 0)
+            if (_db.Database.GetPendingMigrations().Count() > 0 && !_db.Database.CanConnect())
             {
                 _db.Database.Migrate();
             }
         }
+    }
+    public static async Task SeedRoles(WebApplication app)
+    {
+        using (var scope = app.Services.CreateScope())
+        {
+            try
+            {
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+                string[] roleNames = { "Admin", "User", "Viewer" };
+                IdentityResult roleResult;
+
+                foreach (var roleName in roleNames)
+                {
+                    var roleExist = await roleManager.RoleExistsAsync(roleName);
+                    if (!roleExist)
+                    {
+                        // Create the roles and seed them to the database
+                        roleResult = await roleManager.CreateAsync(new IdentityRole(roleName));
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+                logger.LogError(ex, "An error occurred while seeding the database.");
+            }
+        }
+
+        
     }
 }

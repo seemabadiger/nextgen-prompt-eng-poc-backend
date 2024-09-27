@@ -47,8 +47,10 @@ namespace HxStudioAuthService.Service
                 var result = await _userManager.CreateAsync(user,registrationRequestDto.Password);
                 if (result.Succeeded)
                 {
-
                     var userReturn = _db.ApplicationUsers.FirstOrDefault(x => x.UserName == registrationRequestDto.Email);
+
+                    // Assign role to the user
+                    var roleResult = await _userManager.AddToRoleAsync(userReturn, registrationRequestDto.Role);
 
                     UserDto userDto = new()
                     {
