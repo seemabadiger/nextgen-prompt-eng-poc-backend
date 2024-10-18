@@ -120,5 +120,20 @@ namespace HxStudioAuthService.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request");
             }
         }
+
+        
+        [HttpGet("Ok")]
+        public async Task<IActionResult> CheckAPI()
+        {
+            try
+            {
+                
+                return Ok(new ResponseDto { IsSuccess = true });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while processing your request");
+            }
+        }
     }
 }
